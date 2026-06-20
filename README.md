@@ -45,15 +45,6 @@ A Capacitor + React + Vite proof-of-concept that takes an existing React web app
 4. Feature code calls into `nativeBridge.ts`, which dispatches to the right Capacitor plugin or to a web fallback when running in a browser.
 5. The same `npm run build` artifact ships to web, iOS, and Android.
 
-## Why this matters for the job
-
-The "Senior Mobile Developer Needed to Convert Web App to Mobile App" job needs:
-- Capacitor framework experience
-- Web-app to mobile-app conversion expertise
-- Seamless functionality and optimal UX across platforms
-
-This POC is a real Capacitor project with the full plugin set you need to convert most web SaaS apps to mobile, not a tutorial-grade hello world.
-
 ## Run
 
 ```bash
